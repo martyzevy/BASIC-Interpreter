@@ -2,9 +2,10 @@ compiler = g++
 flags = -g -Wall -std=c++11
 compile = $(compiler) $(flags)
 
-rsa: rsa.cpp 
-	$(compile) rsa.cpp -o rsa
+scheduling: scheduling.cpp avlbst.h
+	$(compile) $< -o $@
 
 .PHONY: clean
 clean:
-	rm -rf *.o rsa
+	rm -rf *.o scheduling
+	
