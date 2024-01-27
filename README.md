@@ -1,1 +1,1 @@
-
+This program allows users to input a .txt file on the command line containing BASIC code. My program parses the file and executes the commands in C++. It then writes the output to an output .txt file. 
